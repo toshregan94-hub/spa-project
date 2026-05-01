@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    
+
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: beige;
+    justify-content: center;
+    max-width:800px;
+    padding:20px;
+    margin: auto;
+}
+
+h1{
+    font: size 900px;
+    margin-bottom:25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:red;
+
+
+}
+form{
+    display: flex;
+    margin-bottom:24px;
+}
+button{
+    padding:20px;
+    color:black;
+    border:none;
+    border-radius:8px;
+
+}
+.placeholder-text{
+    color:blue;
+}
+.container{
+    max-width:700px;
+    margin: auto;
+    padding:40px;
+
+}
+.search-container{
+    max-width: 700px;
+    padding:40px;
+    margin:0 auto;
+
+}
+.search-container h1{
+    text-align: center;
+    color:red;
+    font-size: larger;
+    margin-bottom: 30px;
+
+}
+#search-input{
+    padding: 12px 15px;
+    border-radius: 6px;
+    font-size: 1rem;
+
+}
+#search-button{
+    padding: 12px 24px;
+    background-color: salmon;
+    color: white;
+    border: none;
+    cursor:pointer;
+}
+
+#result-display{
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+#result-display h2{
+    font-size: 1.8rem;
+    font-weight:bold;
+    margin-bottom: 6px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+
